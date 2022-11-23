@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Euclid Circular A', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1220px;
+  padding: 0 60px;
+}
+
+main {
+  background-color: lightblue;
+}
+
+section {
+  border: 1px solid var(--main-blue-color);
+  min-height: 100px;
+}
+
+.promo_section {
+  min-height: 500px;
+  background: url('../assets/img/front_backgound_compr.png') right/contain no-repeat;
+}
