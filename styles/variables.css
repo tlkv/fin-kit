@@ -1,4 +1,9 @@
 :root {
-  --main-blue-color: #0962E8;
-  --main-lightblue-color: #CBECFF;
+  --main-blue-color: #0962e8;
+  --main-lightblue-color: #cbecff;
+  --main-font-color: #29374e;
+  --main-white-color: #ffffff;
+  --container-max-width: 1220px;
+  --container-padding: 60px;
+  --promo-min-height: 670px;
 }
