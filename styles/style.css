@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  background-color: lightblue;
+  background-color: var(--main-lightblue-color);
 }
 
 section {
