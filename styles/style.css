@@ -43,6 +43,46 @@ header {
 /* advantages block */
 
 #advantages {
-  font-size: 30px;
-  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 40px;
+  position: relative;
+  top: 200px;
+}
+
+.advantages_item {
+  box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  height: 118px;
+  background-color: var(--main-white-color);
+  padding: 20px;
+}
+
+.advantages_text {
+  max-width: 80%;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+#products_section {
+  margin-top: 150px;
+}
+
+.products_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px 20px;
+  padding: 0 40px;
+  margin-top: 40px;
+}
+
+.products_item {
+  min-height: 328px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.products_item_top {
+  background-color: var(--main-lightblue-color);
 }

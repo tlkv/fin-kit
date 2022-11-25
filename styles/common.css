@@ -61,7 +61,7 @@ button:active {
   transform: scaleX(1);
 }
 
-.flex-centered {
+.flex_centered {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,4 +78,20 @@ button:active {
 
 section {
   min-height: 400px;
+}
+
+.section_title {
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.text_centered {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.section_title span {
+  color: var(--main-blue-color);
 }
