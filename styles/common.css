@@ -91,15 +91,3 @@ section {
 .section_title span {
   color: var(--main-blue-color);
 }
-
-@media (max-width: 768px) {
-  .btn_primary {
-    margin: auto;
-  }
-}
-
-@media (max-width: 500px) {
-  .btn_primary {
-    width: 100%;
-  }
-}

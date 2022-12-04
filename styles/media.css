@@ -127,7 +127,7 @@
   }
 
   main .container {
-    background-size: 70%;
+    background-size: 79%;
   }
 
   .products_title {
@@ -161,15 +161,23 @@
   .image_prod {
     margin-left: 10px;
   }
+
+  .btn_primary {
+    margin: auto;
+  }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
+  .btn_primary {
+    width: 100%;
+  }
+
   main .container {
     background: url('../assets/img/front_backgound_compr.webp') top 46px left -5px / 118% no-repeat;
   }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 370px) {
   .advantages_text {
     font-size: 11px;
   }
