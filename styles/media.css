@@ -175,10 +175,6 @@
   main .container {
     background: url('../assets/img/front_backgound_compr.webp') top 46px left -5px / 118% no-repeat;
   }
-
-  .products_item_top {
-    background-size: 150px;
-  }
 }
 
 @media (max-width: 359px) {
