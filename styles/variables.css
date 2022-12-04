@@ -1,3 +1,24 @@
 :root {
-  --main-blue-color: #0962E8;
+  --main-blue-color: #0962e8;
+  --main-black-color: #000;
+  --main-lightblue-color: #cbecff;
+  --main-lightblue-new: #eff9ff;
+  --main-lightblue-alt: #e9f6ff;
+  --main-font-color: #29374e;
+  --main-white-color: #ffffff;
+  --container-max-width: 1220px;
+  --container-padding: 60px;
+  --promo-min-height: 670px;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --promo-min-height: 963px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 16px;
+  }
 }
