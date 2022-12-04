@@ -33,6 +33,7 @@ button:active {
   border-radius: 12px;
   position: relative;
   font-size: 18px;
+  overflow: hidden;
 }
 
 .btn_text {
@@ -40,7 +41,7 @@ button:active {
 }
 
 .btn_primary:before {
-  background-color: var(--main-white-color);
+  background-color: var(--main-font-color);
   content: '';
   position: absolute;
   left: 0;
@@ -49,12 +50,7 @@ button:active {
   transform: scaleX(0);
   width: 100%;
   height: 100%;
-  border-radius: 10px;
   transition: all 0.3s ease-in-out;
-}
-
-.btn_primary:hover .btn_text {
-  color: var(--main-blue-color);
 }
 
 .btn_primary:hover:before {
@@ -94,4 +90,16 @@ section {
 
 .section_title span {
   color: var(--main-blue-color);
+}
+
+@media (max-width: 768px) {
+  .btn_primary {
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn_primary {
+    width: 100%;
+  }
 }
