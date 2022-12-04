@@ -1,0 +1,126 @@
+#advantages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  padding: 0 40px;
+  position: relative;
+  top: 197px;
+}
+
+.advantages_item {
+  box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  height: 118px;
+  background-color: var(--main-white-color);
+  padding: 15px;
+  display: flex;
+}
+
+.advantages_text {
+  max-width: 80%;
+  line-height: 140%;
+  font-weight: 500;
+  padding: 5px 15px 5px 5px;
+}
+
+#products_section {
+  margin: 150px auto 150px;
+}
+
+.products_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px 20px;
+  padding: 0 40px;
+  margin-top: 40px;
+}
+
+.products_item {
+  min-height: 328px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.products_item_top {
+  display: flex;
+}
+
+.products_item_left {
+  width: 45%;
+}
+
+.item_top_left {
+  background: var(--main-lightblue-alt) url('../assets/img/sec2.webp') right 4px bottom -8px / 50% no-repeat;
+}
+
+.item_top_right {
+  background: var(--main-lightblue-alt) url('../assets/img/sec1.webp') right 4px bottom -8px / 50% no-repeat;
+}
+
+.products_content .products_item_demo {
+  padding: 0;
+}
+
+.products_title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: var(--main-black-color);
+  margin-bottom: 10px;
+}
+
+.products_description {
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--main-black-color);
+  margin-top: 0;
+}
+
+.products_item_demo .section_title {
+  margin: 16px auto 20px;
+}
+
+.products_item_desc {
+  font-size: 14px;
+  line-height: 140%;
+  max-width: 80%;
+  margin-bottom: 38px;
+}
+
+.product_item_conditions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 50px;
+}
+
+.image_prod {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.img_1 {
+  background: var(--main-lightblue-new) url('../assets/svg/money.svg') center no-repeat;
+}
+
+.img_2 {
+  background: var(--main-lightblue-new) url('../assets/svg/client.svg') center no-repeat;
+}
+
+.img_3 {
+  background: var(--main-lightblue-new) url('../assets/svg/change.svg') center no-repeat;
+}
+
+.img_4 {
+  background: var(--main-lightblue-new) url('../assets/svg/heart.svg') center no-repeat;
+}
+
+.conditions_item {
+  padding: 10px 8px;
+}
+
+.conditions_item_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+}
